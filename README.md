@@ -56,7 +56,7 @@ No programmatic tests were created due to time limitation
 - Used algorithm found online to compute SHA256Hash
 ## AI
 Used ChatGPT in the following situations:
- - to perform simple boiler-plate tasks such as setting up the node.js server
+ - to perform simple boilerplate tasks such as setting up the node.js server
  - to remind myself of basic Angular syntax (such as module imports, data-binding) since I have not used Angular in awhile
 
 Did NOT use ChatGPT or any other AI tools to:
