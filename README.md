@@ -52,7 +52,7 @@ Manual testing was performed to test for
 No programmatic tests were created due to time limitation
 
 # Tools Used
-- Found examples of simple forms online that I incorporated and altered to fit into frontend
+- Found examples of simple CSS forms online that I incorporated and altered to fit into frontend
 - Used algorithm found online to compute SHA256Hash
 ## AI
 Used ChatGPT in the following situations:
