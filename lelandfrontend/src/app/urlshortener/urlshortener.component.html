@@ -1,0 +1,33 @@
+<div class="page-container">
+  <h1>Leland URL Shortener</h1>
+  <div class="input-form">
+
+    <!--Input form-->
+    <form>
+      <input type="text" id="inputString" [(ngModel)]="inputString" name="inputString" placeholder="Enter URL here" required>
+      <button type="button" (click)="onSubmitUrl()">Submit</button>
+    </form>
+
+    <!--Result of a successful submitted file-->
+    <div *ngIf="shortenedUrl != ''">
+      <h2>Shortened URL:</h2>
+      <p>{{shortenedUrl}}</p>
+    </div>
+
+    <!--Error message if URL is invalid-->
+    <div class='error-header' *ngIf="invalidUrl">
+      <p>The URL you entered is either not valid or does not start with http(s).</p>
+      <p>Please submit a valid URL</p>
+    </div>
+
+    <!--Error message if there is a server error-->
+    <div class="error-header" *ngIf="errorOccurred">
+      <p>An error occurred, please try again</p>
+    </div>
+
+  </div>
+</div>
+
+
+
+

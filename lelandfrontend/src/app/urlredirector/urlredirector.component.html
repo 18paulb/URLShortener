@@ -1,0 +1,10 @@
+<!--Should redirect quickly but just in case, add this loading spinner-->
+<div *ngIf="urlValid" class="loader-container">
+  <div class="loader"></div>
+</div>
+
+<!--Error message if the url is not valid-->
+<div class="error-dialog-container" *ngIf="!urlValid">
+  <h1 class="error-header">Url is not a valid url</h1>
+  <button class="redirect-button" [routerLink]="[homePagePath]">Return To Main Page</button>
+</div>
