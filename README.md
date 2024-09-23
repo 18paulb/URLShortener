@@ -23,14 +23,17 @@ There are two main components
 
 urlshortener:
  - This takes in a url from the user and sends it to the server which then returns the shortened url
+
 Form Validation: 
  - Makes sure that submitted url is http(s)
+
 Error Handling: 
  - If error from server side, shows error message
  - If error is client side shows invalid url message
 
 urlredirector:
 - If user searches shortened url, redirects to the original url page
+
 Error Handling:
 - If url is not a saved url, shows error message and a button to go back to main page
 
