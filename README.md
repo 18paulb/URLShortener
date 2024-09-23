@@ -54,7 +54,3 @@ Used ChatGPT in the following situations:
 
 Did NOT use ChatGPT or any other AI tools to:
  - Generate solutions to the assigned problem
-
-
-
-# URLShortener
