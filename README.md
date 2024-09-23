@@ -2,6 +2,7 @@
 
 ## Technologies Used
 Frontend: Angular
+
 Backend: Node.js
 
 ## Backend
