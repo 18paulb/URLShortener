@@ -44,7 +44,7 @@ Error Handling:
 
 # Testing
 Manual testing was performed to test for 
-- Rrror messages show up in correct situations
+- Error messages show up in correct situations
 - URL redirection performs correctly
 - URL is saved successfully and returns shortened url
 - Basic application functionality worked correctly
