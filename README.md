@@ -41,6 +41,7 @@ Manual testing was performed to test for
 - URL redirection performs correctly
 - URL is saved successfully and returns shortened url
 - Basic application functionality worked correctly
+
 No programmatic tests were created due to time limitation
 
 # Tools Used
