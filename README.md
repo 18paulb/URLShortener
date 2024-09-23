@@ -41,6 +41,7 @@ Error Handling:
 1. npm install to get required dependencies (do this in both lelandfrontend and lelandbackend)
 2. To start lelandfrontend, enter src folder and run 'ng serve'
 3. To start lelandbackend, run 'node server.js' while in the folder
+4. Navigate to http://localhost:4200/ in order to see webpage
 
 # Testing
 Manual testing was performed to test for 
