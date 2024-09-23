@@ -8,6 +8,7 @@ Backend: Node.js
 There are two main endpoints
 /get-url
  - Gets the original url from a shortened url
+
 /submit-url
  - Saves the original url into a map as the key and generates a shortened url that is saved as a value
 
@@ -17,6 +18,7 @@ shortenUrl()
 
 ## Frontend
 There are two main components
+
 urlshortener:
  - This takes in a url from the user and sends it to the server which then returns the shortened url
 Form Validation: 
