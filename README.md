@@ -21,7 +21,7 @@ shortenUrl()
 ## Frontend
 There are two main components
 
-urlshortener:
+### urlshortener:
  - This takes in a url from the user and sends it to the server which then returns the shortened url
 
 Form Validation: 
@@ -31,7 +31,7 @@ Error Handling:
  - If error from server side, shows error message
  - If error is client side shows invalid url message
 
-urlredirector:
+### urlredirector:
 - If user searches shortened url, redirects to the original url page
 
 Error Handling:
